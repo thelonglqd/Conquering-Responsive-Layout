@@ -21,21 +21,22 @@
 body {
   margin: 0;
   font-family: Roboto;
+  font-size: 1.3rem;
 }
 
 .container {
   margin: 0 auto;
   background: #23424a;
   color: white;
-  padding: 5rem;
 }
 
 .content {
-  max-width: 750px;
-  width: 60%;
+  max-width: 50%;
+  padding: 5rem 0;
+  margin: 0 auto;
 
   p {
-    line-height: 1.75rem;
+    line-height: 2rem;
   }
 
   a {
