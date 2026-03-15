@@ -39,7 +39,7 @@ body {
   }
 
   a {
-    /* display: inline-block; */
+    display: inline-block;
     padding: 1rem 2.5rem;
     background-color: #38cfd9;
     text-decoration: none;
