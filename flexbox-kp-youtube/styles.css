@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: pink;
+  height: 50vh;
+  width: 70vw;
+  padding: 0.5em;
+  margin: 25vh auto 0;
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: flex-start;
+}
+
+.item {
+  background-color: lightblue;
+  margin: 0.5em;
+}
+
+.one {
+  flex: 0 0 250px;
+}
+
+.two {
+  flex: 1 0 250px;
+  align-self: flex-end;
+  order: 0;
+}
+
+.three {
+  flex: 1 1 250px;
+}
