@@ -5,10 +5,19 @@
   box-sizing: border-box;
 }
 
-.container {
+.row {
   display: flex;
-  padding: 0 3rem;
   justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .hero {
@@ -88,13 +97,12 @@ header {
 }
 
 nav {
-  width: 100%;
   .nav__list {
-    width: 100%;
     padding: 1.5rem 0;
     list-style: none;
     display: flex;
     gap: 1.5rem;
+    align-items: center;
 
     .nav__item a {
       text-decoration: none;
