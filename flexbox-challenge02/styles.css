@@ -7,13 +7,13 @@
 
 .container {
   display: flex;
-  padding: 3rem;
+  padding: 0 3rem;
   justify-content: space-between;
 }
 
 .hero {
   background-color: #23424a;
-
+  padding: 3rem 0;
   .hero__text {
     width: 55%;
     color: #fff;
@@ -54,6 +54,7 @@
 }
 
 .main {
+  padding: 3rem 0;
   .main-col-1 {
     width: 55%;
     padding: 2rem 0;
@@ -82,35 +83,34 @@
     }
   }
 }
+header {
+  background-color: #136c72;
+}
 
 nav {
-  padding: 1rem 3rem;
-  background-color: #136c72;
-
+  width: 100%;
   .nav__list {
-    max-width: 30%;
+    width: 100%;
+    padding: 1.5rem 0;
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+    gap: 1.5rem;
 
-  .nav__link {
-    display: inline-block;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    &:hover {
-      color: #38cfd9;
+    .nav__item a {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
     }
-  }
 
-  .nav__link:last-child {
-    background-color: #fff;
-    color: #136c72;
-    padding: 0.5rem 1.25rem;
-    border-radius: 100px;
-    &:hover {
-      color: #38cfd9;
+    .nav__item:last-child a {
+      color: #136c72;
+      background-color: #fff;
+      padding: 0.5rem 1.25rem;
+      border-radius: 100px;
+    }
+
+    .nav__item.push-right {
+      margin-left: auto;
     }
   }
 }
