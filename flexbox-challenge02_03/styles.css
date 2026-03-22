@@ -122,3 +122,27 @@ nav {
     }
   }
 }
+
+@media (max-width: 600px) {
+  .row:not(header .row) {
+    display: block;
+  }
+
+  .hero {
+    .hero__text,
+    .hero__image {
+      width: 100%;
+    }
+
+    .hero__image {
+      margin-top: 2em;
+    }
+  }
+
+  .main {
+    .main-col-1,
+    .main-col-2 {
+      width: 100%;
+    }
+  }
+}
